@@ -50,6 +50,7 @@ class CheckBoxDetection():
             Found_Text = get_text_by_SelectionStatus(SlectionStatus=SelectionStatus, blocks=blocks)
             for line in Found_Text:
                 bool_checked_dict[line] = True
+        SelectionStatus = 'NOT_SELECTED'
         if SelectionStatus == 'NOT_SELECTED':
             Found_Text = get_text_by_SelectionStatus(SlectionStatus=SelectionStatus, blocks=blocks)
             for line in Found_Text:
