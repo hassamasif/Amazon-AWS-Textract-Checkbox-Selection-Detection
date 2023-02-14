@@ -13,6 +13,6 @@ Get TEXT TYPE Selected
 It will be child of X Element, 
 Get ID of Child Element
 It will have other Child elements linked with it
-FIND Block TYPE of LINE in which one of child found above is present. 
+FIND Block TYPE of LINE in which all of childs found above is present. 
 
 ``` 
