@@ -6,11 +6,11 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import  Image
-import pytesseract
+
 import boto3
 import io
 import json
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+
 
 os.environ['AWS_DEFAULT_REGION'] = 'xxxxxxxxxxxx'
 os.environ['AWS_ACCESS_KEY_ID'] = 'xxxxxxxxxxxxxxxxxx'
